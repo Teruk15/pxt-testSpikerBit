@@ -404,21 +404,7 @@ namespace spikerbit {
         }
     }
 
-    /**
-         * Return alpha waves power
-         */
 
-    //% group="Brain"
-    //% weight=60
-    //% block="brain alpha power"
-    export function brainAlphaPower(): number {
-        if (signalType == Signal.EEG) {
-            return eegAlphaPower;
-        }
-        else {
-            return 0;
-        }
-    }
 
 
     /**
