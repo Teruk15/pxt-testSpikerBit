@@ -403,5 +403,5 @@ namespace spikerbit {
             return 0;
         }
     }
-
+}
 
