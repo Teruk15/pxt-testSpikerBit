@@ -422,18 +422,6 @@ namespace spikerbit {
 
 
     /**
-     * Print number provided as input parameter
-     */
-
-    //% group="Helper Utility"
-    //% weight=74
-    //% block="print %value"
-    export function print(value: number): void {
-        serial.writeValue("Signal", value);
-    }
-
-
-    /**
      * Return tree seconds of recorded signal
      */
 
